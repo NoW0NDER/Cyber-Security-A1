@@ -136,7 +136,8 @@ if __name__ == "__main__":
     key_left = key_perm[:28]
     key_right = key_perm[28:]
     print("\n\n")
-    
+    print("key_left: ", key_left)
+    print("key_right: ", key_right)
     key_left_shift = shift_left(key_left, 1)
     key_right_shift = shift_left(key_right, 1)
     
